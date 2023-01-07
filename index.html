@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -129,7 +130,13 @@
 
               <button type="button" id="btnSubscribe">Me Inscrever</button>
             </form>
-            <!-- <script type="module" src="assets/js/main.js"></script> -->
+            <script type="module" src="assets/js/main.js"></script>
+            <script>
+              function switchTheme() {
+                document.body.classList.toggle("dark-theme");
+                document.body.classList.toggle("light-theme");
+              }
+            </script>
           </div>
         </div>
       </section>
