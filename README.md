@@ -91,7 +91,7 @@ Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Inve
 ## 🌎 Redes Sociais
 
 <p>
-    <img align=left margin=10 width=80 src=""/>
+    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/56098739?v=4"/>
     <p>&nbsp&nbsp&nbspGuilherme Augusto Groth<br>
-    &nbsp&nbsp&nbsp<a href="https://www.instagram.com/guigroth/">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/diogomainardes">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/guilherme-groth/">LinkedIn</a>&nbsp;
+    &nbsp&nbsp&nbsp<a href="https://www.instagram.com/guigroth/">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/guigroth">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/guilherme-groth/">LinkedIn</a>&nbsp;
 </p>
