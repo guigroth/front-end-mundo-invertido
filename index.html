@@ -6,12 +6,25 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Document</title>
   </head>
-  <body>
-    <header>
-      <audio id="music" src="assets/musics/normal-world.mp3" autoplay></audio>
+  <body
+    class="light-theme"
+    aria-label="O site está utilizando o tema light"
+    role="body"
+  >
+    <header aria-label="Cabeçalho da Página">
+      <audio
+        autoplay
+        id="music"
+        src="assets/musics/normal-world.mp3"
+        aria-details="Áudio do Site"
+      ></audio>
 
       <div class="header-content">
-        <img class="" src="assets/images/banner/logo.svg" alt="Imagem p" />
+        <img
+          class="invert-element"
+          src="assets/images/banner/logo.svg"
+          alt="Imagem principal Mundo Invertido"
+        />
         <p class="invert-element" role="text">
           Uma jornada para quem não tem medo do desconhecido. O caminho para o
           Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a
@@ -96,6 +109,7 @@
           </ul>
         </div>
       </section>
+
       <section id="section-form" class="container">
         <h2>O Clube Dungeons and Dragons</h2>
         <p>
@@ -107,10 +121,10 @@
         </p>
 
         <div class="form-content">
-          <!--      <h3> 
+          <h3>
             Entre para o clube de D&D e tenha experiências de
-            <span>outro mundo<span></span>    
-          </h3> -->
+            <span>outro mundo</span>
+          </h3>
           <div class="form-container">
             <form>
               <label for="txtName">Nome Completo</label>
@@ -144,6 +158,7 @@
       </p>
       <img src="assets/images/footer/logo.svg" alt="Logotipo DIO" />
     </footer>
+
     <script>
       window.addEventListener("click", function () {
         const audio = document.getElementById("music");
