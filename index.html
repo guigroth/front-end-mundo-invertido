@@ -45,8 +45,8 @@
 
       <section id="section-inverted-world" class="container">
         <div class="section-texts">
-          <h2>O Mundo Invertido</h2>
-          <p role="text">
+          <h2 class="invert-element">O Mundo Invertido</h2>
+          <p role="text" class="invert-element">
             O Mundo Invertido parece uma cópia do nosso mundo, mas com criaturas
             horrendas, tempestades assustadoras, muita escuridão e entidades
             malignas. Um reino controlado por Vecna, que tem planos de trazer
@@ -63,6 +63,7 @@
       <section id="section-stranger-things-trailer" class="container">
         <div class="video-frame" aria-hidden="true">
           <iframe
+            class="invert-element"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/otutSrxYpa4"
@@ -74,8 +75,8 @@
         </div>
 
         <div class="section-texts">
-          <h2>Stranger Things Vol. 4</h2>
-          <p role="text">
+          <h2 class="invert-element">Stranger Things Vol. 4</h2>
+          <p role="text" class="invert-element">
             Mais experiêntes, os heróis de Stranger Things também precisam
             enfrentar desafios maiores do que nunca e fazer decisões que irão
             mudar suas vidas para sempre. Confira ao lado o trailer da quarta
@@ -86,7 +87,9 @@
 
       <section id="section-stranger-things-gallery">
         <div class="container section-text">
-          <h2>A segunda série mais assistida da Netflix</h2>
+          <h2 class="invert-element">
+            A segunda série mais assistida da Netflix
+          </h2>
           <ul class="gallery-container" role="gallery">
             <li class="gallery-image invert-element">
               <img
@@ -111,8 +114,8 @@
       </section>
 
       <section id="section-form" class="container">
-        <h2>O Clube Dungeons and Dragons</h2>
-        <p>
+        <h2 class="invert-element">O Clube Dungeons and Dragons</h2>
+        <p class="invert-element">
           Para deter Vecna, os heróis de Stranger Things também precisam de
           você. O Clube D&D mais famoso de Hawkings está com vagas abertas para
           sua próxima aventura. Se você é destemido, gosta de desafios e não tem
@@ -121,22 +124,24 @@
         </p>
 
         <div class="form-content">
-          <h3>
+          <h3 class="invert-element">
             Entre para o clube de D&D e tenha experiências de
             <span>outro mundo</span>
           </h3>
           <div class="form-container">
             <form>
-              <label for="txtName">Nome Completo</label>
+              <label class="invert-element" for="txtName">Nome Completo</label>
               <input type="text" name="name" id="txtName" />
 
-              <label for="txtEmail">E-mail</label>
+              <label class="invert-element" for="txtEmail">E-mail</label>
               <input type="text" name="email" id="txtEmail" />
 
-              <label for="txtLevel">Level</label>
+              <label class="invert-element" for="txtLevel">Level</label>
               <input type="number" name="level" id="txtLevel" />
 
-              <label for="txtCharacter">Personagem</label>
+              <label class="invert-element" for="txtCharacter"
+                >Personagem</label
+              >
               <textarea
                 name="character"
                 cols="30"
@@ -144,7 +149,9 @@
                 id="txtCharacter"
               ></textarea>
 
-              <button type="button" id="btnSubscribe">Me Inscrever</button>
+              <button type="button" id="btnSubscribe" class="invert-element">
+                Me Inscrever
+              </button>
             </form>
           </div>
         </div>
@@ -152,11 +159,15 @@
     </main>
 
     <footer>
-      <p>
+      <p class="invert-element">
         Projeto construído para fins didáticos, com o objetivo de colocar em
         prática os conhecimentos de HTML, CSS e Javascript aprendidos na DIO.
       </p>
-      <img src="assets/images/footer/logo.svg" alt="Logotipo DIO" />
+      <img
+        alt="Logotipo DIO"
+        class="invert-element"
+        src="assets/images/footer/logo.svg"
+      />
     </footer>
 
     <script>
